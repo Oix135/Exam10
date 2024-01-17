@@ -44,6 +44,11 @@ namespace Exzm10
                 Logger.Error(ex.Message);
                 x = null;
             }
+            catch(Exception ex)
+            {
+                Logger.Error(ex.Message);
+                x = null;
+            }
             finally
             {
                 if(!inverseArgs)
